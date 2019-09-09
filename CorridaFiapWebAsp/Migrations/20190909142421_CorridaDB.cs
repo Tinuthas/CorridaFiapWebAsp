@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace CorridaFiapWebAsp.Migrations
 {
-    public partial class CorridaBD : Migration
+    public partial class CorridaDB : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

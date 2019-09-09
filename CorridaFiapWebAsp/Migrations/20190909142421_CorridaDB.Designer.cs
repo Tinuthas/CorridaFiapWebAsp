@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CorridaFiapWebAsp.Migrations
 {
     [DbContext(typeof(AllCorridaContext))]
-    [Migration("20190909140147_CorridaBD")]
-    partial class CorridaBD
+    [Migration("20190909142421_CorridaDB")]
+    partial class CorridaDB
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

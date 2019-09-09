@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\resource\\Documents\\FIAP\\CorridaFiapWebAsp\\CorridaFiapWebAsp\\CorridaFiapWebAsp.csproj": {}
+    "D:\\CorridaFiapWebAsp\\CorridaFiapWebAsp\\CorridaFiapWebAsp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\resource\\Documents\\FIAP\\CorridaFiapWebAsp\\CorridaFiapWebAsp\\CorridaFiapWebAsp.csproj": {
+    "D:\\CorridaFiapWebAsp\\CorridaFiapWebAsp\\CorridaFiapWebAsp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\resource\\Documents\\FIAP\\CorridaFiapWebAsp\\CorridaFiapWebAsp\\CorridaFiapWebAsp.csproj",
+        "projectUniqueName": "D:\\CorridaFiapWebAsp\\CorridaFiapWebAsp\\CorridaFiapWebAsp.csproj",
         "projectName": "CorridaFiapWebAsp",
-        "projectPath": "C:\\Users\\resource\\Documents\\FIAP\\CorridaFiapWebAsp\\CorridaFiapWebAsp\\CorridaFiapWebAsp.csproj",
-        "packagesPath": "C:\\Users\\resource\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\resource\\Documents\\FIAP\\CorridaFiapWebAsp\\CorridaFiapWebAsp\\obj\\",
+        "projectPath": "D:\\CorridaFiapWebAsp\\CorridaFiapWebAsp\\CorridaFiapWebAsp.csproj",
+        "packagesPath": "C:\\Users\\logonrmlocal\\.nuget\\packages\\",
+        "outputPath": "D:\\CorridaFiapWebAsp\\CorridaFiapWebAsp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\resource\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\logonrmlocal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -55,6 +53,7 @@
               "version": "[2.1.2, )"
             },
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
