@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using CorridaFiapWebAsp.Models;
+using _06_Fiap.Web.AspNet.Models;
 
-namespace CorridaFiapWebAsp.Controllers
+namespace _06_Fiap.Web.AspNet.Controllers
 {
     public class HomeController : Controller
     {

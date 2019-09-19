@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CorridaFiapWebAsp.Models
+namespace _06_Fiap.Web.AspNet.Models
 {
     public enum Categoria
     {
-        MARATONA, NORMAL, RAPIDA
+        Pista, Rua, Esteira
     }
 }

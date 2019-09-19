@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using CorridaFiapWebAsp.Context;
+using _06_Fiap.Web.AspNet.Persistences;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CorridaFiapWebAsp
+namespace _06_Fiap.Web.AspNet
 {
     public class Startup
     {
@@ -25,14 +25,16 @@ namespace CorridaFiapWebAsp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<RacerContext>(
+                o => o.UseSqlServer(
+                    Configuration.GetConnectionString("conexao")));
+
             services.Configure<CookiePolicyOptions>(options =>
             {
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
-
-            services.AddDbContext<AllCorridaContext>(options =>options.UseSqlServer(Configuration.GetConnectionString("conexao")));
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
