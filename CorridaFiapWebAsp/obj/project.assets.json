@@ -12538,11 +12538,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\06-Fiap.Web.AspNet\\06-Fiap.Web.AspNet\\06-Fiap.Web.AspNet.csproj",
-      "projectName": "06-Fiap.Web.AspNet",
-      "projectPath": "D:\\06-Fiap.Web.AspNet\\06-Fiap.Web.AspNet\\06-Fiap.Web.AspNet.csproj",
+      "projectUniqueName": "D:\\CorridaFiapWebAsp\\CorridaFiapWebAsp\\CorridaFiapWebAsp.csproj",
+      "projectName": "CorridaFiapWebAsp",
+      "projectPath": "D:\\CorridaFiapWebAsp\\CorridaFiapWebAsp\\CorridaFiapWebAsp.csproj",
       "packagesPath": "C:\\Users\\logonrmlocal\\.nuget\\packages\\",
-      "outputPath": "D:\\06-Fiap.Web.AspNet\\06-Fiap.Web.AspNet\\obj\\",
+      "outputPath": "D:\\CorridaFiapWebAsp\\CorridaFiapWebAsp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

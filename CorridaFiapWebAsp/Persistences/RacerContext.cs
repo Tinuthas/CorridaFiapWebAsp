@@ -1,15 +1,19 @@
-﻿using _06_Fiap.Web.AspNet.Models;
+﻿using CorridaFiapWebAsp.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace _06_Fiap.Web.AspNet.Persistences
+namespace CorridaFiapWebAsp.Persistences
 {
     public class RacerContext : DbContext
     {
         public DbSet<Corrida> Corridas { get; set; }
+
+        public DbSet<Medalha> Medatlhas { get; set; }
+        public DbSet<Atleta> Atletas { get; set; }
+        public DbSet<Trajeto> Trajetos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

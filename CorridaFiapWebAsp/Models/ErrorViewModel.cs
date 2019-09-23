@@ -1,6 +1,6 @@
 using System;
 
-namespace _06_Fiap.Web.AspNet.Models
+namespace CorridaFiapWebAsp.Models
 {
     public class ErrorViewModel
     {

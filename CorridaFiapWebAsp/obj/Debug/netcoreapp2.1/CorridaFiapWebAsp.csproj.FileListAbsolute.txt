@@ -61,3 +61,8 @@ D:\CorridaFiapWebAsp\CorridaFiapWebAsp\obj\Debug\netcoreapp2.1\CorridaFiapWebAsp
 D:\CorridaFiapWebAsp\CorridaFiapWebAsp\obj\Debug\netcoreapp2.1\CorridaFiapWebAsp.dll
 D:\CorridaFiapWebAsp\CorridaFiapWebAsp\obj\Debug\netcoreapp2.1\CorridaFiapWebAsp.pdb
 D:\CorridaFiapWebAsp\CorridaFiapWebAsp\obj\Debug\netcoreapp2.1\CorridaFiapWebAsp.csproj.CopyComplete
+D:\CorridaFiapWebAsp\CorridaFiapWebAsp\obj\Debug\netcoreapp2.1\Razor\Views\Corrida\Cadastrar.g.cshtml.cs
+D:\CorridaFiapWebAsp\CorridaFiapWebAsp\obj\Debug\netcoreapp2.1\Razor\Views\Corrida\Editar.g.cshtml.cs
+D:\CorridaFiapWebAsp\CorridaFiapWebAsp\obj\Debug\netcoreapp2.1\Razor\Views\Corrida\Listar.g.cshtml.cs
+D:\CorridaFiapWebAsp\CorridaFiapWebAsp\obj\Debug\netcoreapp2.1\Razor\Views\Corrida\_formulario.g.cshtml.cs
+D:\CorridaFiapWebAsp\CorridaFiapWebAsp\obj\Debug\netcoreapp2.1\Razor\Views\Medalha\Cadastrar.g.cshtml.cs

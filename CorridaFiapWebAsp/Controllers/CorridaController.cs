@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using _06_Fiap.Web.AspNet.Models;
-using _06_Fiap.Web.AspNet.Persistences;
+using CorridaFiapWebAsp.Models;
+using CorridaFiapWebAsp.Persistences;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace _06_Fiap.Web.AspNet.Controllers
+namespace CorridaFiapWebAsp.Controllers
 {
     public class CorridaController : Controller
     {
