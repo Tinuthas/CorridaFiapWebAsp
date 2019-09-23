@@ -19,6 +19,7 @@
         <th>Distancia</th>
         <th>Premiação</th>
         <th>Categoria</th>
+        <th>Local Inicio</th>
         <th></th>
     </tr>
     @foreach (var item in Model)
@@ -28,12 +29,16 @@
             <td>@item.Distancia</td>
             <td>@(item.Premiacao ? "Sim" : "Não")</td>
             <td>@item.Categoria</td>
+            <td>@item.Trajeto.LocalInicio</td>
             <td>
                 <a class="btn btn-primary btn-sm" asp-action="editar" asp-route-id="@item.CorridaId">Editar</a>
                 <!-- Botão para acionar modal -->
                 <button onclick="codigo.value = @item.CorridaId" type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#modalExemplo">
                     Excluir
                 </button>
+                <a asp-action="listar" asp-controller="medalha" asp-route-id="@item.CorridaId" class="btn btn-warning" >
+
+                </a>
             </td>
         </tr>
     }
